@@ -1,0 +1,31 @@
+body{
+    background-color: teal;
+    color: white;
+    text-align: center;
+    font-family: arial, san-serif;
+}
+
+#controls{
+    margin: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #232323 ;
+}
